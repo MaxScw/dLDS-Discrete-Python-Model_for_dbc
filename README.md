@@ -8,13 +8,15 @@ Decomposed Linear Dynamical Systems (dLDS) for learning the latent components of
 ## C) Package and functions description
 
 =================================================================
-# A) Installation Instructions
+# A) Installation and Code Instructions
 Our discrete model can also be pip-installed using the dlds_discrete package, as described at https://pypi.org/project/dLDS-discrete-2022/
    1. Make sure you have _os_, _pickle_, and _itertools_ installed in your python directory
    2. In the cmd, write:  _!pip install dLDS-discrete-2022_
    2. Import the package: _import dlds_discrete_
    3. Import all functions in the main_functions script: _from dlds_discrete.main_functions import *_
    4. Call the desired function, as described below (in section (C)) 
+
+
 If you prefer to use the GitHub code, the main code is located at:  _\dLDS-Discrete-Python-Model\dLDS_discrete\dlds_discrete_, where:
 1) **'main_functions'** = Python script with the model and plotting functions.
 2) **'create_params'**  = Python script to define default parameters
