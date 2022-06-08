@@ -1,4 +1,5 @@
-# Discrete-Python-Model---Decomposed-Linear-Dynamical-Systems-dLDS-paper
+# Discrete-Python-Model:
+## Decomposed-Linear-Dynamical-Systems-dLDS-paper: [link](https://arxiv.org/abs/2206.02972)
 Decomposed Linear Dynamical Systems (dLDS) for learning the latent components of neural dynamics
 
 # Outine:
@@ -14,7 +15,12 @@ Our discrete model can also be pip-installed using the dlds_discrete package, as
    2. Import the package: _import dlds_discrete_
    3. Import all functions in the main_functions script: _from dlds_discrete.main_functions import *_
    4. Call the desired function, as described below (in section (C)) 
+If you prefer to use the GitHub code, the main code is located at:  _\dLDS-Discrete-Python-Model\dLDS_discrete\dlds_discrete_, where:
+1) **'main_functions'** = Python script with the model and plotting functions.
+2) **'create_params'**  = Python script to define default parameters
+3) **'train_discrete_model_example'** - an example for how to train our model
 
+The Python notebook at the home directory (**discrete_dlds_visualization.ipynb**) may help you understand how to use the code. 
 
 =================================================================
 # B) Main Model Figures
