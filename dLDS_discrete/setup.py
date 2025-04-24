@@ -23,6 +23,6 @@ setuptools.setup(
 
     python_requires=">=3.8",
     install_requires = ['numpy', 'matplotlib','scipy','scipy','pandas','webcolors',
-                        'seaborn','colormap','sklearn', 'pylops','dill','mat73', 'easydev']
+                        'seaborn','colormap','scikit-learn', 'pylops','dill','mat73', 'easydev']
 )
 
