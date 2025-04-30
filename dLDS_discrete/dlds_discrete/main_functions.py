@@ -261,6 +261,8 @@ def train_model_include_D(max_time = 500, dt = 0.1, dynamics_type = 'cyl',num_su
   # Default value for the latent dimension if D != I     
   if include_D and np.isnan(latent_dim):
       latent_dim = int(np.max([data.shape[0] / 5,3]))
+  elif include_D:
+      assert(True)
   else:      latent_dim = data.shape[0]; 
 
   if include_D: # If model needs to study D
